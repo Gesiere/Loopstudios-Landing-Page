@@ -1,6 +1,9 @@
 .footer{
     background-color: $black;
     margin-top: 5rem;
+    @include mobile{
+        margin-top: 7rem;
+    }
     .container{
         justify-content: space-between;
         display: flex;
